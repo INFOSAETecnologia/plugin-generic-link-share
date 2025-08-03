@@ -2,12 +2,17 @@
   "requiredSdkVersion": "~0.0.84",
   "name": "GenericLinkShare",
   "javascriptEntrypointUrl": "GenericLinkShare.js",
-  "localesBaseUrl": "https://cdn.domain.com/pluginabc/",
+  "localesBaseUrl": "https://cdn-infosae.nyc3.cdn.digitaloceanspaces.com/saeteorico/bbb/plugin/GenericLinkShare",
   "dataChannels": [
-      {
-          "name": "urlToGenericLink",
-          "pushPermission": ["moderator"],
-          "replaceOrDeletePermission": ["creator", "moderator"]
-      }
+    {
+      "name": "urlToGenericLink",
+      "pushPermission": [
+        "moderator"
+      ],
+      "replaceOrDeletePermission": [
+        "creator",
+        "moderator"
+      ]
+    }
   ]
 }
